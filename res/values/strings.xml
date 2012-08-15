@@ -1,0 +1,11 @@
+<resources>
+
+    <string name="app_name">PreferencesTutorial</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_preferencias">Preferencias</string>
+    <string name="autocomplete_hint">Elija uno de sus contactos</string>
+    <string name="mensaje_defecto">Esto es un texto por defecto</string>
+    <string name="textocheck">Marque o desmarque esta casilla a su gusto</string>
+
+</resources>

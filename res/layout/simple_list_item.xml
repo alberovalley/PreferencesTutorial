@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+  		android:id="@+id/row_item_list_compra_producto"
+  		android:layout_width="fill_parent"
+  		android:layout_height="fill_parent"
+  		android:gravity="center_horizontal"
+  		android:textSize="20sp"
+  		android:padding="10dip"
+  		android:textColor="@color/texto_frontal"
+  		android:background="@color/fondo_actividad"
+  		android:textColorHint="@color/fondo_actividad"
+  		style="?android:attr/textAppearanceLarge"		
+  />
