@@ -71,9 +71,14 @@ public class Preferencias extends Activity implements OnClickListener {
     	contactosGuardadosAdapter = new ArrayAdapter<String>(this,R.layout.simple_list_item);
     	lista.setAdapter(contactosGuardadosAdapter);
     	// Restore preferences
-        //settings = getSharedPreferences(PREFS_NAME, 0);
-    	settings = PreferenceManager
-                .getDefaultSharedPreferences(this);
+        /*
+         *  Sólo usamos un fichero de preferencias, por lo que usamos getPreferences
+         *  Además, como queremos que estas preferencias sean legibles por otras aplicaciones, usamos el modo
+         *   MODE_WORLD_READABLE
+         */
+    	
+    	settings = getPreferences( MODE_WORLD_READABLE);
+    			
 
         boolean checked = settings.getBoolean(PREFS_CHECK_NAME, false);
         check.setChecked(checked);
